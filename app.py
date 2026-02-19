@@ -3,7 +3,7 @@ from google import genai
 import os
 
 # ================= CONFIG =================
-API_KEY =
+
 client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(
